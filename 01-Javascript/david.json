@@ -1,0 +1,11 @@
+//json es Javascript Object Notation
+
+{"nombre":"David",
+"edad":12,
+"sueldo":12.2,
+  "casado":false,
+  "hijos":null,
+  "mascota":{
+    "nombre":"Cachetes"
+  }
+}

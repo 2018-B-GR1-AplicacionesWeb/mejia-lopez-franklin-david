@@ -91,7 +91,7 @@ const nuevaPromesaAppendFile = (nombreArchivo,contenidoArchivo) => {
     );
 };
 
-nuevaPromesaAppendFile()
+nuevaPromesaAppendFile('06-texto3.text','\n Adios Mundo')
     .then(
         (resultadoOk) => {
             console.log('Todo bien', resultadoOk);
@@ -104,13 +104,3 @@ nuevaPromesaAppendFile()
             console.log('Algo malo paso', resultadoError);
         }
     );
-
-nuevaPromesaAppendFile('06-texto3.text','\n Adios Mundo',
-    (contenidoArchivo,error)=>{
-        if(error){
-            console.log('Error',error)
-        }else{
-            console.log(contenidoArchivo)
-        }
-    }
-);

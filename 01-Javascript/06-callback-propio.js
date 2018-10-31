@@ -122,3 +122,16 @@ ejercicioDeArchivos(arregloStrings,
     (arregloRespuestas) => {
         console.log(arregloRespuestas);
     });
+
+
+function ejercicioDeArchivos(arregloStrings) {
+    return new Promise(
+        (resolve,reject()=>{
+            resolve();
+            reject();
+    }
+);
+};
+
+    )
+}

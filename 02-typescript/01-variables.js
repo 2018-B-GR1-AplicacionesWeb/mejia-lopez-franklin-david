@@ -13,8 +13,14 @@ const fechaNacimiento = new Date();
 let identificador = '1';
 identificador = 1;
 identificador = 'uno';
+class Usuario {
+}
 const usuario = {
     nombre: 'Adrian',
-    apellido: 'Equez'
+    apellido: 'Eguez'
 };
 //TSC nombreArchivo --target es3
+function sumarDosNumeros(numeroUno, numeroDos) {
+    return numeroUno + numeroDos;
+}
+sumarDosNumeros(2, 3);

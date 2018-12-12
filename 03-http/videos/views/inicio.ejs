@@ -1,0 +1,58 @@
+
+<!-- h1 -> header 1  -->
+<h1> <%= usuario %> </h1>
+<% var vicente = 'Vicente'; %>
+<!-- h2 -> header 2  -->
+<h2>  <%= vicente %>  </h2>
+
+<% if(booleano) {%>
+    <!-- p -> parrafo  -->
+    <p>Usted creo una noticia</p>
+<% } %>
+
+<!-- ul -> unordered list  -->
+<!-- ol -> ordered list  -->
+<ul>
+
+    <% arreglo.forEach( (noticia)=> { %>
+        <!-- li -> list item  -->
+        <li>
+            <%= noticia.titulo %>
+            -
+            <%= noticia.descripcion %>
+
+            <form action="/adiosMundo" method="POST">
+                <button type="button"> clickea sin problemas</button>
+                <button>Yo tambien envio informacion</button>
+                <button type="submit"> Enviar</button>
+            </form>
+        </li>
+
+    <% }) %>
+
+</ul>
+
+<table>
+    <!-- tr -> table row -->
+    <tr>
+        <!-- th -> table header -->
+        <th>Identicador</th>
+        <th>Nombre</th>
+        <th>Acciones</th>
+    </tr>
+    <!-- tr -> table row -->
+    <tr>
+        <!-- td -> table detail -->
+        <td>1</td>
+        <td>Adrian</td>
+        <td><button>Eliminar</button></td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
